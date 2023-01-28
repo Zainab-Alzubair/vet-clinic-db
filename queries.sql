@@ -222,7 +222,7 @@ FROM
   JOIN animals 
     ON visits.animals_id=animals.id 
   GROUP BY animals.name 
-  ORDER BY number_of_visits DESC LIMIT 1;
+  ORDER BY no_of_visits  DESC LIMIT 1;
 
 /* Who was Maisy Smith's first visit? */
 
